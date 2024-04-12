@@ -1,0 +1,24 @@
+{
+    "provider": "sqlite",
+    "databases": {
+        "mysql": {
+            "host": "localhost",
+            "port": 3306,
+            "username": "root",
+            "password": "password",
+            "database": "my_database"
+        },
+        "sqlite": {
+            "version": "1",
+            "database": "teste.db",
+            "sql": "create table user(id integer primary key autoincrement, name text, login text, email text, password text);"
+        },
+        "sqlserver": {
+            "host": "localhost",
+            "port": 1433,
+            "username": "sa",
+            "password": "password",
+            "database": "my_database"
+        }
+    }
+}
